@@ -1,0 +1,181 @@
+<-- html base -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ferrari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>F40</h1>
+  <p>
+  La Ferrari F40 est une supercar 
+  du constructeur automobile italien Ferrari,
+  produite de 1987 à 1992.
+  Elle succède à la Ferrari 288 GTO,
+  et est commercialisée pour fêter les quarante ans
+  de la marque. Ultime création d'Enzo Ferrari,
+  elle est au moment de sa sortie la voiture 
+  de série la plus rapide, la plus puissante 
+  et la plus chère de l'histoire de l'automobile
+    🚀</p>
+
+  <h2>Histoire de la F40</h2>
+  <ul>
+    <li><a href="moteur.html">Moteur </a></li>
+    <li><a href="histoire sportive de la F40.html">Histoire sportive </a></li>
+    <li><a href= "Hestétique.html">Hestétique </a></li>
+  </ul>
+
+  <img src="img/f40.webp" alt="Ferrari F40">
+  
+</body>
+</html>
+<p>
+
+<--css  -->
+
+/* Appliquer une police Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  background: linear-gradient(to right, #380000, #730000, #841515, #be0000);
+
+  font-family: 'Poppins', sans-serif;
+  text-align: center; /* Centrer le contenu */
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+p, li, a {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  background: linear-gradient(135deg, #ff6f00, #fa9b03); /* Dégradé doré */
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Effet au survol */
+button:hover {
+  background: linear-gradient(135deg, #ff8902, #ff8800);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+}
+
+/* Effet quand on clique */
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+
+<-- html moteur -->
+
+<!DOCTYPE html>
+<html lang="fr"></html>
+<head>
+  <meta charset="UTF-8">
+  <title>Moteur F40</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<p>la FERRARI 40 et allimenter part un F120D de Ferrari 288 Evoluzione,
+    V8 à 90°, 2,9 L, Biturbo (IHI), 2ACT, 32 soupapes< qui et posé en potion centrale arriere de la F40.
+    Il développe 478 ch sois 352 kW à 7 000 tr/min et 577 Nm à 4 000 tr/min.
+    Ce moteur est dérivé de celui de la Ferrari 288 GTO, lui-même issu</p>
+<img src="https://st2.depositphotos.com/1705215/10807/i/450/depositphotos_108070708-stock-photo-engine-of-sports-car-ferrari.jpg"alt="Moteur F40 V8" class="center">
+</body>
+</html>
+
+<-- html histoire sportive -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>histoire sportive de la F40</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p>La Ferrari F40 a eu une carrière en compétition limitée mais notable.
+    Elle a participé à diverses courses de voitures de sport et d'endurance
+    à la fin des années 1980 et au début des années 1990.
+    L'une des participations les plus célèbres de la F40 en compétition
+    a été aux 24 Heures du Mans en 1989, où elle a concouru dans la catégorie
+    GTP (Grand Touring Prototype). Bien que la F40 n'ait pas remporté la course,
+    elle a démontré ses capacités en endurance et sa vitesse impressionnante.
+    En plus du Mans, la F40 a également participé à d'autres courses de voitures
+    de sport à travers le monde, souvent modifiée pour répondre aux réglementations
+    spécifiques de chaque série. Certaines versions de la F40 ont été adaptées
+    pour la course, avec des modifications aérodynamiques et des ajustements
+    de performance pour améliorer leur compétitivité sur la piste.</p>    
+  
+<img src="https://st5.depositphotos.com/2439851/69163/i/600/depositphotos_691632214-stock-photo-pesaro-italy-jun-2023-ferrari.jpg"alt=Gerrari-F40
+</body>
+</html>
+
+<-- hestetique-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hestétique.html</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <p>La Ferrari F40 est bien plus qu’une simple voiture :
+ c’est une œuvre d’art mécanique, une icône intemporelle de l’automobile italienne.
+  Son design, signé Pininfarina, incarne la pureté et la radicalité des années 1980,
+   une époque où la performance dictait la forme.
+
+Dès le premier regard, la F40 impose son caractère.
+ Sa silhouette basse et tendue évoque la vitesse à l’état brut.
+  Les lignes sont nettes, sans compromis, sculptées par le vent et l’efficacité aérodynamique.
+   Le long capot plongeant, les prises d’air béantes et l’immense aileron arrière ne sont pas là pour
+    le style : chaque élément a une fonction précise. Pourtant, leur agencement crée une harmonie visuelle
+     unique, agressive et élégante à la fois.
+
+La carrosserie, en fibre de carbone et Kevlar, révèle une approche minimaliste
+ : pas d’ornement superflu, seulement l’essentiel. Les phares escamotables
+  et les vitres en plexiglas renforcent cette impression de légèreté
+   et de pure performance. La couleur rouge emblématique, « Rosso Corsa »,
+    achève de transformer la F40 en symbole du rêve automobile italien.
+
+À l’intérieur, la sobriété règne.
+ Pas de cuir luxueux ni de gadgets : juste le nécessaire pour piloter.
+  Cette austérité souligne le véritable objectif de la F40 — la vitesse, la sensation, l’adrénaline.
+
+En somme, l’esthétique de la Ferrari F40 marie puissance et simplicité. C’est la beauté du fonctionnel, la noblesse du minimalisme, et l’expression parfaite de la philosophie Ferrari : créer une machine qui fait battre le cœur, avant même qu’on tourne la clé.</p>
+<img src="https://st2.depositphotos.com/1955233/7148/i/600/depositphotos_71488557-stock-photo-ferrari-f40-car-on-display.jpg"
+
+</body>
+</html>
